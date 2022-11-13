@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+title: "Dion Ong"
+author: "Dionysius Ong"
+description: "Dionysius Ong"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,14 +16,15 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
+  - {file: "index.html", title: Home}
+  - {file: "index.html", title: CV}
+  - {file: "index.html", title: Knowledge Base}
+  - {file: "index.html", title: Projects}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-  - {title: LinkedIn, icon: linkedin, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:tiensung@gmail.com"}
+  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/dion-ong"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
