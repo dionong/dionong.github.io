@@ -21,21 +21,26 @@ title: "CV"
   
     {{ job.Company }} - {{ job.Location }} <br>
     
-    {% for pos in site.data.cv.Experience.Position %}
-      {{ pos.item }}
+    {% for pos in site.data.cv.Experience.Position.item %}
+      {{ pos }}
     {% endfor %}
+    
+    <!--
     <br><br>
     {% for ten in site.data.cv.Experience.Tenure %}
       {{ ten.item }}
     {% endfor %}
+    
     <br><br>
     {% for ka in site.data.cv.Experience.Key_Accomplishments %}
       {{ ka.item }}
     {% endfor %}
+    
     <br><br>
     {% for ka in site.data.cv.Experience.Key_Accoountabilities %}
       {{ ka.item }}
     {% endfor %}
   {% endfor %}
+        -->
   <hr />
 </article>
