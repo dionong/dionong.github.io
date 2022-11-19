@@ -2,3 +2,66 @@ Profile: >
   Problem Solving Data System Analyst with 5+ year experience in various industries. 
   I help companies with data-related projects such as data migrations, creating reports and dashboards, 
   process automation and system support.
+
+
+Experience:
+  -
+    Company: Western Australian Local Government Association
+    Location: Perth, Australia
+    Position: 
+      - item: Contract Analyst
+      - item: Data and Reporting Analyst
+    Tenure: 
+      - item: Mar 2020 - Present
+      - item: May 2019 – Mar 2020
+    Other_roles: Business Analyst, Data Modeller, BI Developer
+    Company_bio: The WA Local Government Association (WALGA) is an advocacy group that represents 139 Local Governments in Western Australia. As the peak industry body, WALGA negotiates service agreements for the sector. WALGA is not a government department or agency.
+    Company_logo:
+    Key_Accomplishments:
+      - item: Converting an Operational Report that consisted of multiple spreadsheets into one Power BI report that is now being used at an Executive Level.
+      - item:	Redesigned the Core Operational Power BI data model to be more aligned to the Star Schema.
+      - item:	Created technical documentation (Process maps, ERD, Data Dictionary) that was used in a RFQ for a new CRM system.
+      - item:	Providing a suite of Dynamics 365 reports for Contract Managers to monitor panel performance
+      - item:	I minimised project costs by providing system support during the development of a new PowerApps Portal.  The main sources of support included data migration, creation of PowerApps Views & Forms and modifying PowerApps Portal Pages using JavaScript & HTML.
+      - item:	Reducing the time taken to produce 139 Local Government reports by 50% - 80% for other business units. This was achieved by reducing the number of steps through the use of Power Query and VBA.
+
+    Key Accountabilities:
+      - item:	Providing data analytics support within the team and organisation.  This includes, but not limited to: data migration, data model optimisation, Power BI report creation, data integrity checks.
+      - item:	Supporting External Stakeholders with Preferred Supplier Program issues.
+      - item:	Delivering ad-hoc data analysis for various levels of management.
+      - item:	Providing technical assistance in data-related projects and business processes within the organisation.
+
+    Languages_Used:	T-SQL, VBA
+    BI_App:	SSDT, Excel, Power BI Desktop, Power BI Service
+    Dev_Software:	SQL Management Studio, Visual Studio, Visio, Visual Studio Code
+  -
+    Company: St John Ambulance WA 
+    Location: Perth, Australia
+    Position: 
+      - item: Reporting Analyst
+    Tenure: 
+      - item: August 2018 - April 2019
+
+    Company_bio: St John Ambulance WA is a charitable, non-profit, humanitarian organisation teaching first aid to the community, delivering the State's ambulance service while also shaping and leading the sector nationally.
+    Company_logo:
+
+    Other_roles: SQL Developer, Data Analyst, Business Intelligence Developer.
+
+    Key Accomplishments:
+      - item:	In a data mining project, I analysed over 100,000 patient visitation records uncovered over $50,000 worth of unclaimed expenses
+      - item:	Provided SSRS technical guidance to colleagues as part of a data migration project.
+      - item:	I improved the organisation's knowledge of a vendor application's database through a data discovery process and documenting my findings within Confluence.
+
+    Key Accountabilities:
+      - item:	Providing data analysis to key internal stakeholders to enable decisions to be made.
+      - item:	Providing Operational Reports to various levels of Management
+      - item:	Liaising with stakeholders to support their standard data and reporting requirements
+      - item:	Conversion of SAP Business Object Reports/Dashboards to SSRS Reports/Data
+      - item:	Writing Stored Procedures to help with reporting requirements
+      - item:	Documentation of reporting processes
+      - item:	Exposure to Power BI
+
+    Languages_Used:	T-SQL, VBA
+    BI_App:	SSRS 2012, SAP Business Objects, SSDT, Excel, Power BI Desktop
+    Dev_Software:	SQL Management Studio, SAP WebI, QGIS
+

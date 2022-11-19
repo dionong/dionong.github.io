@@ -16,8 +16,35 @@ title: "CV"
   <header>
     <h1>Experience</h1>
   </header>
-  <p>
-    {{ site.data.cv.Profile }}
-  </p>
+
+  {% for job in site.data.cv.Experience %}
+  
+    {{ job.Company }} - {{ job.Location }} <br>
+    
+    {% for pos in site.data.cv.Experience.Position %}
+      {{ pos.item }}
+    {% endfor %}
+    <br><br>
+    {% for ten in site.data.cv.Experience.Tenure %}
+      {{ ten.item }}
+    {% endfor %}
+    <br><br>
+    {% for ka in site.data.cv.Experience.Key_Accomplishments %}
+      {{ ka.item }}
+    {% endfor %}
+    <br><br>
+    {% for ka in site.data.cv.Experience.Key_Accoountabilities %}
+      {{ ka.item }}
+    {% endfor %}
+  {% endfor %}
   <hr />
+
+
+  {% for post in posts %}
+  <article>
+    {% include meta.html post=post preview=true %}
+    {{ post.excerpt }}
+    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+  </article>
+{% endfor %}
 </article>
