@@ -5,8 +5,7 @@ Profile: >
 
 
 Experience:
-  -
-    Company: Western Australian Local Government Association
+  - Company: Western Australian Local Government Association
     Location: Perth, Australia
     Position: 
       - item: Contract Analyst
@@ -34,8 +33,7 @@ Experience:
     Languages_Used:	T-SQL, VBA
     BI_App:	SSDT, Excel, Power BI Desktop, Power BI Service
     Dev_Software:	SQL Management Studio, Visual Studio, Visio, Visual Studio Code
-  -
-    Company: St John Ambulance WA 
+  - Company: St John Ambulance WA 
     Location: Perth, Australia
     Position: 
       - item: Reporting Analyst
