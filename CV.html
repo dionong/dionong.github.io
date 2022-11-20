@@ -17,11 +17,8 @@ title: "CV"
     <h1>Experience</h1>
   </header>
 
-  {% for job in site.data.cv.Experience %}
-  
-    {{ job.Company }}  <br /> <br />
-    
-  {% endfor %}
+ {{ site.data.cv.Experience.Company[0]}}
+
         
   <hr />
 </article>
