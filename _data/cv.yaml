@@ -8,11 +8,10 @@ Experience:
   - Company: Western Australian Local Government Association
     Location: Perth, Australia
     Position: 
-      - item: Contract Analyst
-      - item: Data and Reporting Analyst
-    Tenure: 
-      - item: Mar 2020 - Present
-      - item: May 2019 – Mar 2020
+      - name: Contract Analyst
+        tenure: Mar 2020 - Present 
+      - name: Data and Reporting Analyst
+        tenure: May 2019 – Mar 2020
     Other_roles: Business Analyst, Data Modeller, BI Developer
     Company_bio: The WA Local Government Association (WALGA) is an advocacy group that represents 139 Local Governments in Western Australia. As the peak industry body, WALGA negotiates service agreements for the sector. WALGA is not a government department or agency.
     Company_logo:
@@ -35,9 +34,8 @@ Experience:
   - Company: St John Ambulance WA 
     Location: Perth, Australia
     Position: 
-      - item: Reporting Analyst
-    Tenure: 
-      - item: August 2018 - April 2019
+      - name: Reporting Analyst
+        tenure: August 2018 - April 2019
 
     Company_bio: St John Ambulance WA is a charitable, non-profit, humanitarian organisation teaching first aid to the community, delivering the State's ambulance service while also shaping and leading the sector nationally.
     Company_logo:
