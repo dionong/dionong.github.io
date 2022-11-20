@@ -27,13 +27,21 @@ title: "CV"
       {{ pos.name }} -  {{ pos.tenure }} <br>
     {% endfor %}
     <br>
-    {% for ka in job.Key_Accomplishments %}
-      {{ ka.item }} <br>
-    {% endfor %}
+    
+    <h6>Key_Accomplishments</h6>
+    <ul>
+      {% for ka in job.Key_Accomplishments %}
+        <li>{{ ka.item }}</li>
+      {% endfor %}
+    </ul>
     <br>
+
+    <h6>Key_Accountabilities</h6>
+    <ul>
     {% for ka1 in job.Key_Accountabilities %}
-      {{ ka1.item }} <br>
+      <li>{{ ka1.item }} </li>
     {% endfor %}
+    </ul>
   </p>
   <p>  
   {% endfor %}

@@ -36,17 +36,13 @@ Experience:
     Position: 
       - name: Reporting Analyst
         tenure: August 2018 - April 2019
-
     Company_bio: St John Ambulance WA is a charitable, non-profit, humanitarian organisation teaching first aid to the community, delivering the State's ambulance service while also shaping and leading the sector nationally.
     Company_logo:
-
     Other_roles: SQL Developer, Data Analyst, Business Intelligence Developer.
-
     Key Accomplishments:
       - item:	In a data mining project, I analysed over 100,000 patient visitation records uncovered over $50,000 worth of unclaimed expenses
       - item:	Provided SSRS technical guidance to colleagues as part of a data migration project.
       - item:	I improved the organisation's knowledge of a vendor application's database through a data discovery process and documenting my findings within Confluence.
-
     Key Accountabilities:
       - item:	Providing data analysis to key internal stakeholders to enable decisions to be made.
       - item:	Providing Operational Reports to various levels of Management
@@ -55,7 +51,6 @@ Experience:
       - item:	Writing Stored Procedures to help with reporting requirements
       - item:	Documentation of reporting processes
       - item:	Exposure to Power BI
-
     Languages_Used:	T-SQL, VBA
     BI_App:	SSRS 2012, SAP Business Objects, SSDT, Excel, Power BI Desktop
     Dev_Software:	SQL Management Studio, SAP WebI, QGIS
