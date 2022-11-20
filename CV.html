@@ -18,10 +18,13 @@ title: "CV"
   </header>
 
   {% for job in site.data.cv.Experience %}
-    {% for pos in job.Position.item %}
-      {{ pos }}
+    {{ job.Company}} <br />
+    {{ job.Location }} <br />
+    
+    <!-- {% for pos in job.Position %}
+      {{ pos.item }}
     {% endfor %}
-  
+    -->
   {% endfor %}
 
         
