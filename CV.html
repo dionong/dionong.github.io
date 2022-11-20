@@ -17,9 +17,12 @@ title: "CV"
     <h1>Experience</h1>
   </header>
 
-  {% for pos in site.data.cv.Experience.Position.item %}
+  {% for job in site.data.cv.Experience}
+    {% for pos in job.Position.item %}
       {{ pos }}
     {% endfor %}
+  
+  {% endfor %}
 
         
   <hr />
