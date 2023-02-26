@@ -7,7 +7,7 @@ title: "CV"
   <header>
     <h1>Personal Details</h1>
 </header>
-  <table style="overflow-y: hidden; width: 50%">
+  <table style="overflow-y: hidden; width: 50%; border: 0px solid black">
     <tbody>
       <tr>
           <td style="width: 40%;">Name</td>
@@ -38,6 +38,30 @@ title: "CV"
   </p>
 
   <hr />
+  <header>
+    <h1>Education</h1>
+</header>
+
+  <table border="0">
+    <tr>
+      <td><b>Tertiary</b></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td> 1994-2004 Curtin University <br/> Graduated: 2004</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td> 
+          <b>Double Degree:</b><br />
+          Bachelor of Engineering (Communication and Electronic Engineering)<br />
+          Bachelor of Science (Computer Science)
+      </td>
+    </tr>
+  </table>
+
+
+  <hr />
 
   <header>
     <h1>Experience</h1>
@@ -54,7 +78,7 @@ title: "CV"
     {% endfor %}
     <br>
     
-    <h3>Key_Accomplishments</h3>
+    <h3>Key Achievements</h3>
     <ul>
       {% for ka in job.Key_Accomplishments %}
         <li>{{ ka.item }}</li>
@@ -62,7 +86,7 @@ title: "CV"
     </ul>
     <br>
 
-    <h3>Key_Accountabilities</h3>
+    <h3>Key Accountabilities</h3>
     <ul>
     {% for ka1 in job.Key_Accountabilities %}
       <li>{{ ka1.item }} </li>

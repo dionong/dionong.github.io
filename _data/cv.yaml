@@ -13,6 +13,7 @@ Profile: >
 
 Experience:
   - Company: Western Australian Local Government Association
+    Link: https://www.walga.asn.au
     Location: Perth, Australia
     Position: 
       - name: Contract Analyst
@@ -39,15 +40,20 @@ Experience:
     BI_App:	SSDT, Excel, Power BI Desktop, Power BI Service
     Dev_Software:	SQL Management Studio, Visual Studio, Visio, Visual Studio Code
   - Company: St John Ambulance WA 
+    Link: https://stjohnwa.com.au/
     Location: Perth, Australia
     Position: 
       - name: Reporting Analyst
         tenure: August 2018 - April 2019
+      - name: Technical Analyst
+        tenure: August 2017 - AUgust 2018
     Company_bio: St John Ambulance WA is a charitable, non-profit, humanitarian organisation teaching first aid to the community, delivering the State's ambulance service while also shaping and leading the sector nationally.
     Company_logo:
     Other_roles: SQL Developer, Data Analyst, Business Intelligence Developer.
     Key_Accomplishments:
       - item:	In a data mining project, I analysed over 100,000 patient visitation records uncovered over $50,000 worth of unclaimed expenses
+      - item: Saving the organization $25,000 by providing visualisation solution for the First Aid team instead of outsourcing the work.
+      - item: Reducing processing time of a key stored procedure from around an hour to about 15 minutes.
       - item:	Provided SSRS technical guidance to colleagues as part of a data migration project.
       - item:	I improved the organisation's knowledge of a vendor application's database through a data discovery process and documenting my findings within Confluence.
     Key_Accountabilities:
@@ -55,10 +61,34 @@ Experience:
       - item:	Providing Operational Reports to various levels of Management
       - item:	Liaising with stakeholders to support their standard data and reporting requirements
       - item:	Conversion of SAP Business Object Reports/Dashboards to SSRS Reports/Data
-      - item:	Writing Stored Procedures to help with reporting requirements
+      - item:	Developing and maintaining SQL Stored Procedures to help with reporting requirements,improve business processes and automation
+      - item: Reviewing, analyzing and documenting key business processes and systems 
       - item:	Documentation of reporting processes
-      - item:	Exposure to Power BI
     Languages_Used:	T-SQL, VBA
-    BI_App:	SSRS 2012, SAP Business Objects, SSDT, Excel, Power BI Desktop
+    BI_App:	SSRS 2012, SAP Business Objects, SSDT, Excel
     Dev_Software:	SQL Management Studio, SAP WebI, QGIS
-
+  - Company: Crown Resorts 
+    Link: https://crownperth.com.au/
+    Location: Perth, Australia
+    Position:
+      - name: Systems Analyst (Gaming Systems)
+        tenure: July 2016 - August 2017
+    Company_bio: Crown Resorts is one of Australia's largest entertainment groups. The group's core businesses and investments are in the integrated resorts sector.
+    Company_logo:
+    Other_roles: Application Support Analyst, Functional Analyst, SQL Developer, System Support Analyst
+    Key_Accomplishments:
+      - item: Within the first 3 months as a Gaming Analyst, I impressed a Floor Manager with a data report using Progress DB in a timely manner.
+      - item: Provided system support and assisted in client engagement during the launch of the Crown Rewards program.
+      - item: I led a regression user acceptance testing process. The duties included, but not limited to, setting up a kick off meeting, liaising with testers within each business units when issues occur and retrieving acceptance sign off.
+    Key_Accountabilities:
+      - item: Providing Gaming System Support, which includes Disaster Recovery Testing.
+      - item: Resolving Support Tickets in a timely manner
+      - item: Writing and Reviewing documentation for other departments dealing with Gaming Systems applications
+      - item: Actively testing system enhancements through test scripts that were provided.
+      - item: Actively engaging the stakeholders to gather requirements for future improvements.
+      - item: Implementing System Upgrades for Gaming Applications through a change management process.
+      - item: Actively participating in team sprints
+      - item: Extracting and presenting data for ad-hoc data requests.
+    Languages_Used: Progress DBA (SQL 98), T-SQL, VB, VBA
+    BI_App: Progress DB Client, SSRS
+    Dev_Software: SQL Management Studio, Progress DB Editor, Cherwell, JIRA
