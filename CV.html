@@ -69,7 +69,7 @@ title: "CV"
 
 <p>
   {% for job in site.data.cv.Experience %}
-    {{ job.Company}} <br />
+    <h2><a href="{{ job.Link }}"> {{ job.Company}} </a></h2><br />
     {{ job.Location }} <br />
     
     <br>
