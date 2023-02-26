@@ -69,12 +69,12 @@ title: "CV"
 
 <p>
   {% for job in site.data.cv.Experience %}
-    <h2><a href="{{ job.Link }}"> {{ job.Company}} </a></h2><br />
+    <h2><a href="{{ job.Link }}"> {{ job.Company}} </a></h2>
     {{ job.Location }} <br />
     
     <br>
     {% for pos in job.Position %}
-      {{ pos.name }} -  {{ pos.tenure }} <br>
+      <b>{{ pos.name }} </b> -  {{ pos.tenure }} <br>
     {% endfor %}
     <br>
     
@@ -84,7 +84,6 @@ title: "CV"
         <li>{{ ka.item }}</li>
       {% endfor %}
     </ul>
-    <br>
 
     <h3>Key Accountabilities</h3>
     <ul>
