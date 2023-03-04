@@ -51,7 +51,7 @@ title: "CV"
     Bachelor of Engineering (Communication and Electronic Engineering)<br />
     Bachelor of Science (Computer Science)
   </p>
-  
+
   <hr />
 
   <header>
@@ -60,9 +60,9 @@ title: "CV"
 
 <p>
   {% for job in site.data.cv.Experience %}
-    <h2><a href="{{ job.Link }}"> {{ job.Company}} </a></h2>
-    {{ job.Location }} <br />
-    
+    <h2><a href="{{ job.Link }}"> {{ job.Company}} </a> <br>
+    <font style="font-size: 1em;">{{ job.Location }}</font>
+  </h2>
     <br>
     {% for pos in job.Position %}
       <b>{{ pos.name }} </b> -  {{ pos.tenure }} <br>
