@@ -63,7 +63,6 @@ title: "CV"
     <h2><a href="{{ job.Link }}"> {{ job.Company}} </a> <br>
     <font style="font-size: 1em;">{{ job.Location }}</font>
   </h2>
-    <br>
     {% for pos in job.Position %}
       <b>{{ pos.name }} </b> -  {{ pos.tenure }} <br>
     {% endfor %}
@@ -83,9 +82,8 @@ title: "CV"
     {% endfor %}
     </ul>
   </p>
-  <p>  
+  <br />
   {% endfor %}
-</p>
         
   
 </article>
